@@ -95,6 +95,19 @@
 
 }
 
+.ex-8-img{
+
+    transition: filter 5s, border-radius 5s;
+    
+}
+
+.ex-8-img:hover{
+
+    filter: hue-rotate(80deg) brightness(0.8);
+    border-radius: 25px;
+
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
