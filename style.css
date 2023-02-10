@@ -18,9 +18,11 @@
 
 }
 
-.ex-2-square:hover {
-    
+
+.ex-2-square:active{
+
     width: 1100px;
+
 }
 
 .ex-3-square {
