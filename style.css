@@ -111,7 +111,16 @@
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: margin 3s, width 3s, filter 3s, border-radius 3s;
 }
+
+.ex-9-img:hover {
+    margin: 30px 100px;
+    width: 500px;
+    filter: blur(5px) grayscale(0.8);
+    border-radius: 25px;
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
