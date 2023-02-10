@@ -234,7 +234,7 @@
 .ex-13-top-white{
 
     animation-name: ex-13-top;
-    animation-duration: 1s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
 
 }
@@ -242,7 +242,7 @@
 .ex-13-bottom-white{
 
     animation-name: ex-13-bottom;
-    animation-duration: 1s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
 
 }
@@ -250,39 +250,106 @@
 @keyframes ex-13-top {
 
      0% {
-        left: 10%;
+        left: 0%;
+        top: 0%;
     } 
-    25% {
-        left: 20%;
+    10% {
+        left: 10%;
+        top: -5%;
+    }
+    20% {
+        left: 30%;
+        top: -5%;
+    }
+    30% {
+        left: 60%;
+        top: -5%;
+    }
+    40% {
+        left: 90%;
+        top: -5%;
+        
     }
     50% {
-        left: 30%;
+        left: 100%;
+        top: 0%;
     }
-    75% {
-        left: 40%;
+    60% {
+        left: 100%;
+        top: 50%;
+    }
+    70% {
+        left: 90%;
+        top: 100%;
+    }
+    80% {
+        left: 30%;
+        top: 100%;
+    }
+    90% {
+        left: 0%;
+        top: 100%;
+    }
+    95% {
+        left: -10%;
+        top: 50%;
     }
     100% {
-        left: 50%;
+        left: 0%;
     }
+    
     
 }
 
 @keyframes ex-13-bottom {
 
      0% {
-        left: 10%;
+        right: 0%;
+        bottom: 0%;
     } 
-    25% {
-        left: 50%;
+    10% {
+        right: 10%;
+        top: -5%;
+    }
+    20% {
+        right: 30%;
+        top: -5%;
+    }
+    30% {
+        right: 60%;
+        top: -5%;
+    }
+    40% {
+        right: 90%;
+        top: -5%;
+        
     }
     50% {
-        left: 30%;
+        right: 100%;
+        top: 0%;
     }
-    75% {
-        left: 40%;
+    60% {
+        right: 100%;
+        top: 50%;
+    }
+    70% {
+        right: 90%;
+        top: 100%;
+    }
+    80% {
+        right: 30%;
+        top: 100%;
+    }
+    90% {
+        right: 0%;
+        top: 100%;
+    }
+    95% {
+        right: -10%;
+        top: 50%;
     }
     100% {
-        left: 50%;
+        right: 0%;
     }
     
 }
